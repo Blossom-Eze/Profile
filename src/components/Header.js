@@ -2,9 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='flex items-center justify-between text-white px-5 py-3'>
+    <div className='flex items-center justify-between text-white px-[6%] py-3 h-[10vh]'>
       <div>
-        <h1 className='text-3xl'>Blossom.</h1>
+        <h1 className='text-4xl font-bold'>Blossom.</h1>
       </div>
       <div className='text-xl w-1/2 px-5'>
         <nav className='flex justify-between'>
