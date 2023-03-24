@@ -6,8 +6,8 @@ import Home from './components/Home'
 function App() {
   return (
     <div>
-      <Home />
       <Header />
+      <Home />
     </div>
   )
 }
