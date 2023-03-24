@@ -1,13 +1,17 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header'
+import About from './components/About'
 import Home from './components/Home'
+import Skills from './components/Skills'
+import Stack from './components/Stack'
 
 function App() {
   return (
     <div>
-      <Header />
       <Home />
+      <About />
+      <Stack />
+      <Skills />
     </div>
   )
 }
